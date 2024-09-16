@@ -5,7 +5,11 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{060A772A-13C1-4BD8-8887-1B068F2BE654}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBook.Domain", "Core\CarBook.Domain\CarBook.Domain.csproj", "{DF33D38C-2112-45F1-9CBC-98F27D63A945}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarBook.Domain", "Core\CarBook.Domain\CarBook.Domain.csproj", "{DF33D38C-2112-45F1-9CBC-98F27D63A945}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{55D7FE99-F348-4A1C-A539-4D1B49A930EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBook.Persistence", "Infrastructure\CarBook.Persistence\CarBook.Persistence.csproj", "{E12B039D-BE2C-4686-9416-6E2D4A9A2565}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{DF33D38C-2112-45F1-9CBC-98F27D63A945}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF33D38C-2112-45F1-9CBC-98F27D63A945}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF33D38C-2112-45F1-9CBC-98F27D63A945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12B039D-BE2C-4686-9416-6E2D4A9A2565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12B039D-BE2C-4686-9416-6E2D4A9A2565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12B039D-BE2C-4686-9416-6E2D4A9A2565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12B039D-BE2C-4686-9416-6E2D4A9A2565}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DF33D38C-2112-45F1-9CBC-98F27D63A945} = {060A772A-13C1-4BD8-8887-1B068F2BE654}
+		{E12B039D-BE2C-4686-9416-6E2D4A9A2565} = {55D7FE99-F348-4A1C-A539-4D1B49A930EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D54DE7D3-3017-4C0A-8676-70817335C6D9}
