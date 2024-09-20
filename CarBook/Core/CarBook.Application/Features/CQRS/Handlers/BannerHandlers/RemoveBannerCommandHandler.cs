@@ -1,4 +1,4 @@
-﻿using CarBook.Application.Features.CQRS.Commands.AboutCommands;
+﻿using CarBook.Application.Features.CQRS.Commands.BannerCommands;
 using CarBook.Application.Interfaces;
 using CarBook.Domain.Entities;
 
@@ -13,7 +13,7 @@ namespace CarBook.Application.Features.CQRS.Handlers.BannerHandlers
             _repository = repository;
         }
 
-        public async Task Handle(RemoveAboutCommand request)
+        public async Task Handle(RemoveBannerCommand request)
         {
             var value = await _repository.GetByIdAsync(request.Id);
             await _repository.RemoveAsync(value);
